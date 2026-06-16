@@ -14,3 +14,8 @@ Install dependencies:
 pip install pytest pytest-cov
 To run it: python3 -m app.calculator.calculator in terminal
 To run test: pytest
+To run test with coverage: pytest --cov=app --cov-report=term-missing
+
+Notes:
+I accidentally renamed 'CalculationFactory' to CalculationProgram' and realized too late so I kept it in.
+
